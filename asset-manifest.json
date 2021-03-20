@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/OlhaPylyp/goit-react-hw-01-components/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/OlhaPylyp/goit-react-hw-01-components/static/js/main.6be60831.chunk.js",
+    "main.js.map": "/OlhaPylyp/goit-react-hw-01-components/static/js/main.6be60831.chunk.js.map",
+    "runtime-main.js": "/OlhaPylyp/goit-react-hw-01-components/static/js/runtime-main.7f8e50de.js",
+    "runtime-main.js.map": "/OlhaPylyp/goit-react-hw-01-components/static/js/runtime-main.7f8e50de.js.map",
+    "static/js/2.ea867a2b.chunk.js": "/OlhaPylyp/goit-react-hw-01-components/static/js/2.ea867a2b.chunk.js",
+    "static/js/2.ea867a2b.chunk.js.map": "/OlhaPylyp/goit-react-hw-01-components/static/js/2.ea867a2b.chunk.js.map",
+    "index.html": "/OlhaPylyp/goit-react-hw-01-components/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/OlhaPylyp/goit-react-hw-01-components/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.ea867a2b.chunk.js.LICENSE.txt": "/OlhaPylyp/goit-react-hw-01-components/static/js/2.ea867a2b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f8e50de.js",
+    "static/js/2.ea867a2b.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.6be60831.chunk.js"
+  ]
+}
