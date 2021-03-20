@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
-import User from "./components/Profile";
+import User from "./components/Profile.jsx";
 import user from "./user.json";
+import friends from './friends.json'
 import statisticData from "./statistical-data.json";
-import StatisticList from "./components/StatisticList";
+import transactions from "./transactions.json"
+import StatisticList from "./components/StatisticList.jsx";
+import FriendsList  from "./components/FriendsList"
+import Panel from "./components/Panel.jsx"
+import TransactionHistory from "./components/Transaction.jsx"
 
 function App() {
   return (
@@ -14,10 +19,20 @@ function App() {
   tag={user.tag}
   location={user.location}
   avatar={user.avatar}
-  stats={user.stats.followers}
+        followers={user.stats.followers}
+        views={user.stats.views}
+        likes={user.stats.likes}
       />
+      
+      <Panel title = "Task 2">
  <StatisticList title="Upload stats" stats={statisticData} />;
-<StatisticList stats={statisticData} />;
+      {/* <StatisticList stats={statisticData} />; */}
+        </Panel>,
+        <FriendsList friends={friends} />
+      
+ <Panel title = "Task4">
+        <TransactionHistory items={transactions} />
+     </Panel>
     </div>
   );
 }
