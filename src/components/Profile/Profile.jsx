@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import '../Profile/Profile.css'
 const User =({ name, tag, location, avatar, likes, views,followers}) => 
 (
+    <div className="container">
    <div className="profile">
   <div className="description">
     <img
@@ -28,7 +29,8 @@ const User =({ name, tag, location, avatar, likes, views,followers}) =>
       <span className="quantity">{ likes}</span>
     </li>
   </ul>
-</div> 
+    </div>
+    </div> 
 )
 
 User.propTypes = {

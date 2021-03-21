@@ -13,7 +13,7 @@ import TransactionHistory from "./components/Transaction.jsx"
 function App() {
   return (
     <div >
-      <h2>Task 1</h2>
+      <h2 className="title">User Profile</h2>
       <User
   name={user.name}
   tag={user.tag}

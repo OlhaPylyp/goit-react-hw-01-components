@@ -1,7 +1,10 @@
-.App {
+.title {
   text-align: center;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  font-family: Raleway, sans-serif;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
