@@ -15,11 +15,6 @@ const Statistic = ({ title, stats }) => {
   { lab: 'deepPink', color: '#FF1493' },
     ];
     console.log(colorPickerOptions)
-   
-
-         
-    
-    
     return (    
       <section className={styles.statContainer}>
        
@@ -46,8 +41,8 @@ Statistic.propTypes = {
      title: PropTypes.string.isRequired,
     statisticData: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.string,
-        label: PropTypes.string.isRequired,
-        percentage:PropTypes.number.isRequired,
+        label: PropTypes.string,
+        percentage:PropTypes.number,
     })).isRequired,
     
 

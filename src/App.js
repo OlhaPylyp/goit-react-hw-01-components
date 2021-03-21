@@ -4,21 +4,12 @@ import User from "./components/Profile/Profile.jsx";
 import user from "./components/Profile/user.json";
 import friends from './friends.json'
 import statisticData from "./components/Statistic/statistical-data.json";
-import transactions from "./transactions.json"
+import transactions from "./components/Transaction_history/transactions.json"
 import StatisticList from "./components/Statistic/StatisticList";
 import FriendsList  from "./components/FriendsList"
 import Panel from "./components/Panel.jsx"
-import TransactionHistory from "./components/Transaction.jsx"
-// import ColorPicker from './components/ColorRand/ColorRand'
-       
-//         const colorPickerOptions = [
-//   { label: 'red', color: '#F44336' },
-//   { label: 'green', color: '#4CAF50' },
-//   { label: 'blue', color: '#2196F3' },
-//   { label: 'grey', color: '#607D8B' },
-//   { label: 'pink', color: '#E91E63' },
-//   { label: 'indigo', color: '#3F51B5' },
-// ];
+import TransactionHistory from "./components/Transaction_history/Transaction.jsx"
+
    
 function App() {
   return (

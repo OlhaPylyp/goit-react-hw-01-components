@@ -1,0 +1,27 @@
+.transactionHistory {
+  border-collapse: collapse;
+  max-width: 70%;
+  width: 70%;
+  background-color: white;
+
+  margin: 0;
+}
+.calls {
+  background-color: rgb(225, 226, 228);
+  border: 1px solid grey;
+  border-bottom: 2px solid #6678b1;
+  padding: 10px 8px;
+}
+.rows {
+  border: 1px solid grey;
+  padding: 9px 16px;
+  transition: 0.3s linear;
+}
+.calls:first-child {
+  width: 37%;
+}
+.type {
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
