@@ -16,7 +16,7 @@ const Statistic = ({title,  stats }) => (
         /> */}
         </li>))} </ul>
     </section >
-);
+)
 Statistic.defaultProps = { title: "", }
 Statistic.propTypes = {
      title: PropTypes.string.isRequired,

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import User from "./components/Profile.jsx";
-import user from "./user.json";
+import User from "./components/Profile/Profile.jsx";
+import user from "./components/Profile/user.json";
 import friends from './friends.json'
 import statisticData from "./statistical-data.json";
 import transactions from "./transactions.json"
@@ -25,9 +25,9 @@ function App() {
       />
       
       <Panel title = "Task 2">
- <StatisticList title="Upload stats" stats={statisticData} />;
+ <StatisticList title="Upload stats" stats={statisticData} />
       {/* <StatisticList stats={statisticData} />; */}
-        </Panel>,
+        </Panel>
         <FriendsList friends={friends} />
       
  <Panel title = "Task4">
