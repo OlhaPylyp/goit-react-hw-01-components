@@ -4,15 +4,17 @@
   padding: 20px 15px;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgb(236, 236, 234);
+  background-color: rgb(229, 240, 235);
   justify-content: center;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 20%),
+    0px 2px 1px rgb(0 0 0 / 40%);
 }
 .profile {
   margin-right: 30px;
   width: 300px;
   background-color: rgb(253, 249, 249);
-  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
-    0px 2px 1px rgb(0 0 0 / 20%);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 20%),
+    0px 2px 1px rgb(0 0 0 / 40%);
   border-radius: 5px;
   justify-content: center;
 }
@@ -51,7 +53,7 @@ img {
 }
 
 .stats {
-  background-color: rgb(238, 248, 248);
+  background-color: rgb(211, 236, 248);
   display: flex;
   font-size: 16px;
   line-height: 1.5;
@@ -63,11 +65,12 @@ img {
   color: #969494;
   word-wrap: break-word;
   display: block;
-  /* margin-right: 50px; */
+  padding-right: 10px;
   font-weight: 500;
 }
 .stats__item:not(:last-child) {
-  margin-right: 40px;
+  margin-right: 20px;
+  border-right: 1px solid rgb(207, 203, 203);
 }
 .quantity {
   color: black;

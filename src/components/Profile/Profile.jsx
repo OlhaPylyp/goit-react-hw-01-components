@@ -16,15 +16,15 @@ const User =({ name, tag, location, avatar, likes, views,followers}) =>
   </div>
 
   <ul className="stats">
-    <li className="stats__item">
+    <li className="stats__item stats_border">
       <span className="label">Followers</span>
                 <span class="quantity">{ followers}</span>
     </li>
-    <li className="stats__item">
+    <li className="stats__item stats_border">
       <span className="label">Views</span>
       <span className="quantity">{ views}</span>
     </li>
-    <li className="stats__item">
+    <li className="stats__item ">
       <span className="label">Likes</span>
       <span className="quantity">{ likes}</span>
     </li>
