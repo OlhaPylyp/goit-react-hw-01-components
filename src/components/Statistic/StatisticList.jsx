@@ -14,7 +14,7 @@ const Statistic = ({ title, stats }) => {
   { lab: 'orange', color: '#FF8C00' },
   { lab: 'deepPink', color: '#FF1493' },
     ];
-    console.log(colorPickerOptions)
+    
     return (    
       <section className={styles.statContainer}>
        
