@@ -1,8 +1,9 @@
 
 import PropTypes from 'prop-types';
+import styles from "../components/Panel.module.css"
 const Panel = ({ title, children }) => (
-     <section>
-    <h2>{title}</h2>
+     <section className={styles.container}>
+    <h2 className={styles.title}>{title}</h2>
         { children}
         </section>
 )

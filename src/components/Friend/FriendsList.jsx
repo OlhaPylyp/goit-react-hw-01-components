@@ -1,11 +1,17 @@
 import PropTypes from 'prop-types';
 import styles from "../Friend/FriendList.module.css"
 
-
+// const onLineCheck = () => { isOnline ? className = { styles.online }:className = { styles.offline }}
 const FriendsList = ({ friends }) => (
+
+    
+   
+    
+   
+
     <ul className={styles.friend__list}> {
         friends.map(({ avatar, name, id, isOnline }) => (<li className={styles.friend__item} key={id}>
-            <span className={styles.onLine}>{ isOnline} </span>
+            <span className={isOnline ? styles.onLine : styles.offLine} ></span>
   <img className="avatar" src={avatar} alt={name} width="48" />
             <p className={styles.name}>{ name}</p>
         </li>))

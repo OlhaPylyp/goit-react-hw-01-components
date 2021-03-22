@@ -7,7 +7,7 @@ import statisticData from "./components/Statistic/statistical-data.json";
 import transactions from "./components/Transaction_history/transactions.json"
 import StatisticList from "./components/Statistic/StatisticList";
 import FriendsList  from "./components/Friend/FriendsList"
-// import Panel from "./components/Panel.jsx"
+ import Panel from "./components/Panel.jsx"
 import TransactionHistory from "./components/Transaction_history/Transaction.jsx"
 
    
@@ -27,9 +27,10 @@ function App() {
       />
       
       <h2 className="title">Statistic</h2>
- <StatisticList title="Upload stats" stats={statisticData} />
+      <Panel title="Upload stats">
+ <StatisticList  stats={statisticData} /></Panel>
       {/* <StatisticList stats={statisticData} />; */}
-       
+       <h2 className="title">Friends List</h2>
         <FriendsList friends={friends} />
       
   <h2 className="title">Transaction History</h2>
