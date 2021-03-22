@@ -32,9 +32,9 @@ function App() {
        
         <FriendsList friends={friends} />
       
- <Panel title = "Task4">
+  <h2 className="title">Transaction History</h2>
         <TransactionHistory items={transactions} />
-     </Panel>
+ 
     </div>
   );
 }

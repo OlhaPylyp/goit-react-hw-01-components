@@ -3,13 +3,14 @@
   max-width: 70%;
   width: 70%;
   background-color: white;
-
   margin: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 .calls {
   background-color: rgb(225, 226, 228);
   border: 1px solid grey;
-  border-bottom: 2px solid #6678b1;
+  border-bottom: 2px solid #434344;
   padding: 10px 8px;
 }
 .rows {
@@ -24,4 +25,5 @@
   font-weight: bold;
   font-size: 18px;
   color: black;
+  padding: 9px 16px;
 }
