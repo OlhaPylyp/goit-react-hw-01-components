@@ -39,7 +39,11 @@ User.propTypes = {
   //price: PropTypes.number,
   tag: PropTypes.string.isRequired, //default
   avatar: PropTypes.string.isRequired,
-   stats:PropTypes.number.isRequired,
+  views: PropTypes.number.isRequired,
+  likes: PropTypes.number.isRequired,
+  followers: PropTypes.number.isRequired
+  
+  
 
 }
 export default User;

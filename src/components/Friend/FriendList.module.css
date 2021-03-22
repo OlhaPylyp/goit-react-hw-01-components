@@ -1,0 +1,33 @@
+.friend__list {
+  width: 600px;
+  background-color: rgb(239, 239, 239);
+  display: flex;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 20%),
+    0px 2px 1px rgb(0 0 0 / 40%);
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.friend__item {
+  list-style: none;
+  text-align: center;
+  width: 25%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 20px;
+}
+.name {
+  font-size: 20px;
+  color: #0a0a0a;
+  font-weight: 500;
+}
+
+.onLine {
+  border-radius: 5px;
+  color: cadetblue;
+}
+
+.offLine {
+  border-radius: 5px;
+  color: red;
+}

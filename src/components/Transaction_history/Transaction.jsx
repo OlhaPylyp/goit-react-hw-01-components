@@ -26,11 +26,11 @@ TransactionHistory.prototype = {
 
 }
 TransactionHistory.propTypes ={
-  items:PropTypes.shape({
-    type:PropTypes.string.isRequired,
+  items:PropTypes.arrayOf(PropTypes.shape({
+     type:PropTypes.number.isRequired,
     amount:PropTypes.number.isRequired,
     currency:PropTypes.string.isRequired,
-  })
+  })).isRequired
 }
  
 export default TransactionHistory;

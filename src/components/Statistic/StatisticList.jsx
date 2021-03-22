@@ -39,7 +39,7 @@ const Statistic = ({ title, stats }) => {
 Statistic.defaultProps = { title: "", }
 Statistic.propTypes = {
      title: PropTypes.string.isRequired,
-    statisticData: PropTypes.arrayOf(PropTypes.shape({
+    stats: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.string,
         label: PropTypes.string,
         percentage:PropTypes.number,
