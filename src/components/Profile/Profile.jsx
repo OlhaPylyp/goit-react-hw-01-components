@@ -18,7 +18,7 @@ const User =({ name, tag, location, avatar, likes, views,followers}) =>
   <ul className="stats">
     <li className="stats__item stats_border">
       <span className="label">Followers</span>
-                <span class="quantity">{ followers}</span>
+                <span className="quantity">{ followers}</span>
     </li>
     <li className="stats__item stats_border">
       <span className="label">Views</span>
@@ -32,18 +32,18 @@ const User =({ name, tag, location, avatar, likes, views,followers}) =>
     </div>
     </div> 
 )
+User.default = {
+  avatar: 'https://www.flaticon.com/svg/static/icons/svg/763/763704.svg'
+
+}
 
 User.propTypes = {
   name: PropTypes.string,
   location: PropTypes.string.isRequired,
-  //price: PropTypes.number,
-  tag: PropTypes.string.isRequired, //default
-  avatar: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  avatar: PropTypes.string,
   views: PropTypes.number.isRequired,
   likes: PropTypes.number.isRequired,
   followers: PropTypes.number.isRequired
-  
-  
-
 }
 export default User;

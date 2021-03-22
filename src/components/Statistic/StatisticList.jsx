@@ -5,8 +5,8 @@ import styles from '../Statistic/Statistic.module.css'
 
 const Statistic = ({ title, stats }) => {
 //  const  color = '#' + Math.floor(Math.random() * (256)).toString(16) + Math.floor(Math.random() * (256)).toString(16) + Math.floor(Math.random() * (256)).toString(16);
+  //     const colorPickerOptions = [color.slice()];
   
-//     const colorPickerOptions = [color.slice()];
   const colorPickerOptions = [
   { lab: 'red', color: '#F44339' },
   { lab: 'green', color: '#4AAF50' },
@@ -38,7 +38,7 @@ const Statistic = ({ title, stats }) => {
 }
 Statistic.defaultProps = { title: "", }
 Statistic.propTypes = {
-     title: PropTypes.string.isRequired,
+     title: PropTypes.string,
     stats: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.string,
         label: PropTypes.string,

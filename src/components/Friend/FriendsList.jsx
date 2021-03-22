@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import styles from "../Friend/FriendList.module.css"
 
-// const onLineCheck = () => { isOnline ? className = { styles.online }:className = { styles.offline }}
 const FriendsList = ({ friends }) => (
 
     
