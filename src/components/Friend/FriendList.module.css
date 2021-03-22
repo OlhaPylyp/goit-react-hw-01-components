@@ -39,7 +39,6 @@
 }
 .onLine {
   border-radius: 60%;
-  margin-right: 30px;
   text-align: center;
   height: 1px;
   padding: 10px;
@@ -47,7 +46,6 @@
 }
 .offLine {
   border-radius: 60%;
-  margin-right: 30px;
   text-align: center;
   height: 1px;
   padding: 10px;
