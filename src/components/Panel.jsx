@@ -1,17 +1,15 @@
-
 import PropTypes from 'prop-types';
-import styles from "../components/Panel.module.css"
+import styles from '../components/Panel.module.css';
 const Panel = ({ title, children }) => (
-     <section className={styles.container}>
+  <section className={styles.container}>
     <h2 className={styles.title}>{title}</h2>
-        { children}
-        </section>
-)
+    {children}
+  </section>
+);
 Panel.defaultProps = {
-    title: '',
-    
-}
+  title: '',
+};
 Panel.propTypes = {
-    children:PropTypes.node.isRequired,
-}
+  children: PropTypes.node.isRequired,
+};
 export default Panel;

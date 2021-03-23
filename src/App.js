@@ -35,7 +35,6 @@ function App() {
       
   <h2 className="title">Transaction History</h2>
         <TransactionHistory items={transactions} />
- 
     </div>
   );
 }
